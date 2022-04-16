@@ -1,0 +1,202 @@
+- name: Install adobereader
+  win_chocolatey:
+    name: adobereader
+    version: '2022.001.20085'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install googlechrome
+  win_chocolatey:
+    name: googlechrome
+    version: '100.0.4896.127'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install google-drive-file-stream
+  win_chocolatey:
+    name: google-drive-file-stream
+    version: '55.0.3.0'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install notepadplusplus.install
+  win_chocolatey:
+    name: notepadplusplus.install
+    version: '8.3.3'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install python3
+  win_chocolatey:
+    name: python3
+    version: '3.10.4'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install microsoft-teams.install
+  win_chocolatey:
+    name: microsoft-teams.install
+    version: '1.5.00.8070'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install git.install
+  win_chocolatey:
+    name: git.install
+    version: '2.35.3'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install zoom
+  win_chocolatey:
+    name: zoom
+    version: '5.10.1.4420'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install winrar
+  win_chocolatey:
+    name: winrar
+    version: '6.11'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install nodejs.install
+  win_chocolatey:
+    name: nodejs.install
+    version: '17.9.0'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install vscode
+  win_chocolatey:
+    name: vscode
+    version: '1.66.2'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install treesizefree
+  win_chocolatey:
+    name: treesizefree
+    version: '4.5.3'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install curl
+  win_chocolatey:
+    name: curl
+    version: '7.82.0'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install microsoft-windows-terminal
+  win_chocolatey:
+    name: microsoft-windows-terminal
+    version: '1.12.10732.0'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install awscli
+  win_chocolatey:
+    name: awscli
+    version: '2.5.4'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install slack
+  win_chocolatey:
+    name: slack
+    version: '4.25.2'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install vim
+  win_chocolatey:
+    name: vim
+    version: '8.2.4751'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install yarn
+  win_chocolatey:
+    name: yarn
+    version: '1.22.15'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install virtualbox
+  win_chocolatey:
+    name: virtualbox
+    version: '6.1.32'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install golang
+  win_chocolatey:
+    name: golang
+    version: '1.18.1'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install azure-cli
+  win_chocolatey:
+    name: azure-cli
+    version: '2.35.0'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install postman
+  win_chocolatey:
+    name: postman
+    version: '9.15.2'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install tortoisegit
+  win_chocolatey:
+    name: tortoisegit
+    version: '2.13.0.1'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install kubernetes-cli
+  win_chocolatey:
+    name: kubernetes-cli
+    version: '1.23.5'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install terraform
+  win_chocolatey:
+    name: terraform
+    version: '1.1.8'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install docker-desktop
+  win_chocolatey:
+    name: docker-desktop
+    version: '4.7.0'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install maven
+  win_chocolatey:
+    name: maven
+    version: '3.8.5'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install pip
+  win_chocolatey:
+    name: pip
+    version: '1.2.0'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
+
+- name: Install pnpm
+  win_chocolatey:
+    name: pnpm
+    version: '6.32.4'
+    source: https://github.com/devpandaops/toolkit/tree/feature/script-install-ansible
+    state: present
